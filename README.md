@@ -7,6 +7,6 @@ Desenvolver uma base sólida em Python para aplicações futuras em automação,
 
 👁️ Por que ser programador?
 
-Para ter a capacidade e o esforço necessário para aprender algo "dificil", mesmo que demore anos ou séculos.
+Para ter a capacidade e o esforço necessário para aprender algo "difícil", mesmo que demore anos ou séculos.
 
 
