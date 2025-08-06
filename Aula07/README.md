@@ -19,3 +19,14 @@ Divisão inteira =	a // b
 Resto da divisão (módulo) =	a % b
 
 Potenciação	a ** b =	1000
+
+Ordem de Precedência dos Operadores
+A ordem de precedência define quais operações são executadas primeiro em uma expressão com múltiplos operadores. Em Python, a ordem segue as regras matemáticas tradicionais:
+
+1º () Parênteses
+
+2º ** Potenciação
+
+3º *, /, //, % Multiplicação, divisão, divisão inteira e módulo
+
+4º +, - Adição e subtração
