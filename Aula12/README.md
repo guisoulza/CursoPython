@@ -1,2 +1,2 @@
 # Aula12
-\n## Conteúdo:\n\n## Exercícios:
+Nessa aula, Ã© mostrado como criar estruturas condicionais aninhadas, usando os comandos if.. elif.. else em programas Python.
