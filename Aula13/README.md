@@ -7,7 +7,8 @@ Nessa aula, é mostrado nossos estudos com os laços e vamos fazer primeiro o "f
 # Estrutura de Repetição for em Python
 O for é uma estrutura de repetição usada para executar um bloco de código várias vezes, percorrendo uma sequência como listas, strings ou intervalos numéricos.
 
-Dicas
+Dicas:
+
 Use range(início, fim, passo) para mais controle.
 
 O for é ideal quando sabemos quantas vezes queremos repetir algo ou precisamos percorrer elementos de uma coleção.
