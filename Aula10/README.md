@@ -1,2 +1,3 @@
 # Aula10
-\n## Conteúdo:\n\n## Exercícios:
+
+Nessa aula, serÃ¡ mostrado como utilizar estruturas condicionais simples e compostas nos seus programas em Python.
