@@ -17,6 +17,12 @@ or → pelo menos uma condição precisa ser verdadeira
 
 not → inverte o valor lógico
 
+    idade = 20
+    tem_carteira = True
+
+    if idade >= 18 and tem_carteira:
+        print("Pode dirigir.")
+
 # Operadores Relacionais
 Operador	Significado
 ==	Igual
