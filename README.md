@@ -6,7 +6,7 @@
 Desenvolver uma base sólida em Python para aplicações futuras em automação, análise de dados e cibersegurança.
 
 👁️ Por que ser programador?
+Porque quero usar minha capacidade e persistência pra aprender cada vez mais e ter impacto positivo em: Machine learning, redes neurais, análise de dados e desenvolvimento de softwares.
 
-Para ter a capacidade e o esforço necessário para aprender algo "difícil", mesmo que demore anos ou séculos.
-
-
+🎮 Qual a meta predestinada?
+Jogar jogos com a mente usando uma interface neural feita no python.
