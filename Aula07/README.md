@@ -6,11 +6,16 @@ Python permite realizar operações matemáticas com operadores aritméticos. El
 
 Os principais operadores são:
 
-Operador	Descrição	Exemplo (a = 10, b = 3)	Resultado
-+	Adição	a + b	13
--	Subtração	a - b	7
-*	Multiplicação	a * b	30
-/	Divisão (float)	a / b	3.333...
-//	Divisão inteira	a // b	3
-%	Resto da divisão (módulo)	a % b	1
-**	Potenciação	a ** b	1000
++	Adição =	a + b
+  
+-	Subtração =	a - b
+  
+*	Multiplicação =	a * b
+  
+/	Divisão (float) =	a / b
+
+//	Divisão inteira =	a // b
+
+%	Resto da divisão (módulo) =	a % b
+
+**	Potenciação	a ** b =	1000
