@@ -7,7 +7,7 @@ Nessa aula, é a continuação do estudo dos laços e é mostrado como usar a es
           c+=1
      print('Acabou')
 
-Estrutura de Repetição while em Python
+Estrutura de Repetição while em Python.
 
 O while é uma estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira. É útil quando não sabemos exatamente quantas vezes o código deve ser repetido.
 
