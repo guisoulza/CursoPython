@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 genero = ""
 while genero != 'M' and genero != 'F':
     genero = input('Digite o seu genero ( M / F ): ').upper().strip()

@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 n = int(input('Digite um número: '))
 original = n
 f = 1

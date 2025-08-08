@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 from random import randint
 from time import sleep
 
