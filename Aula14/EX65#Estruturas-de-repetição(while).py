@@ -8,6 +8,8 @@ menor = n
 d = 'S'
 while d != 'N':
     d = input('Deseja continuar? [S/N] ').upper().strip()
+    if d != 'S' and d != 'N':
+        print('Opção invalida!')
     if d == 'S':
         n = int(input('Digite um valor: '))
     soma = soma + n
