@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 n = int(input('Digite quantos numeros vão para a sequencia: '))
 antigo = 0
 novo = 1

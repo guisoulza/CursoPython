@@ -15,5 +15,5 @@ while j != c:
     if j == c:
         print('\033[4;32mParabéns, você acertou!!\033[m')
     else:
-        print('\033[4;31mVocê errou, tente novamente!!\033[m'.format(c))
+        print('\033[4;31mVocê errou, tente novamente!!\033[m')
 print('Fim')

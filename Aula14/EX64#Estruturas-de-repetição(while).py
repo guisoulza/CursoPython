@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 c = 0
 soma = 0
 n = int(input('Digite um valor (999 para parar): '))

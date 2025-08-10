@@ -1,3 +1,5 @@
+#Estruturas de repetição(while).
+
 n = int(input('Digite um valor: '))
 soma = n
 c = 1
