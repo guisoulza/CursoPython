@@ -1,5 +1,7 @@
 #Tipos primitivos e saída de Dados.
 
+#04 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
+
 n=input('Digite algo: ')
 print('É numérico? ', n.isnumeric())
 print('Tem letras? ', n.isalpha())

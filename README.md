@@ -3,8 +3,7 @@
 🐍 Curso de Python - Estudos Pessoais Este repositório contém minha jornada de estudos em Python, organizada por aulas com exercícios práticos, anotações e exemplos de código.  
 
 Cada pasta representa uma aula, contendo:  
-* Um arquivo README.md com os conteúdos abordados
-* Os enunciados dos exercícios
+* Um arquivo README.md com os conteúdos abordados e enunciados dos exercícios
 * Os códigos desenvolvidos para fixação
 
 🎯 Objetivo

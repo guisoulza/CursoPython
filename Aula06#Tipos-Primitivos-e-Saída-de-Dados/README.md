@@ -11,3 +11,6 @@ float → números decimais (ex: 3.14, -0.5, 2.0)
 bool → valores booleanos (True ou False)
 
 str → textos ou cadeias de caracteres (ex: "Olá, mundo")
+
+# Exercícios
+04 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.
