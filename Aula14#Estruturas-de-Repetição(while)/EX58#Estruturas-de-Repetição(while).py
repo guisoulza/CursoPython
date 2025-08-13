@@ -1,9 +1,9 @@
 #Estruturas de repetição(while).
-"""
+
 from random import randint
 from time import sleep
 
-c = randint(0,10)                       #Variável que vai escolher um número aleatório entre 0 e 10
+c = randint(0,10)                #Variável que vai escolher um número aleatório entre 0 e 10
 print('-=-' * 20)
 print('Vou pensar em um número entre 0 e 10. Tente adivinhar...')
 print('-=-' * 20)
@@ -17,12 +17,12 @@ while j != c:
     else:
         print('\033[4;31mVocê errou, tente novamente!!\033[m')
 print('Fim')
-"""
 
 #Correção
 
+"""
 from random import randint
-computador = randint(0,5)        #Variável que vai escolher um número aleatório entre 0 e 10
+computador = randint(0,5)              #Variável que vai escolher um número aleatório entre 0 e 10
 print('Sou seu computador... Acabei de pensar em um número de 0 e 10.')
 print('Será que consegue acertar?')
 acertou = False                        #Variável com valor falso para iniciar o loop
@@ -38,3 +38,5 @@ while not acertou:
         elif jogador > computador:
             print('Menos... Tente outra vez...')
 print(f'Acertou com {palpite} tentativas. Parabéns!!!')
+
+"""

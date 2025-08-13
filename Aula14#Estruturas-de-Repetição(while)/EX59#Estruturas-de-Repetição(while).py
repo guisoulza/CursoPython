@@ -1,6 +1,5 @@
 #Estruturas de repetição(while).
 
-"""
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 texto = ''                                                              #Variavel de controle do loop
@@ -36,10 +35,10 @@ while texto not in ('1', '2', '3', '5'):
     else:                                                               #Condição para caso seja digitado alguma opção que não foi solicitada
         print('\nOpção invalida!')
 print('Fim')
-"""
 
 #Correção
 
+"""
 from time import sleep                                                  #Professor adicionou esse modúlo para deixar mais dinâmico
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
@@ -71,4 +70,4 @@ while opcao != 5:
     print('=-=' * 10)
     sleep(2)
 print('Fim do programa, Volte sempre!!!')
-
+"""
