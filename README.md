@@ -1,4 +1,4 @@
-# CursoPython
+# Curso Python
 
 🐍 Curso de Python - Estudos Pessoais, este repositório contém minha jornada de estudos em Python baseado no curso: Mundo Python do Curso em vídeo com professor Gustavo Guanabara, organizada por aulas com exercícios práticos, anotações e exemplos de código.  
 
