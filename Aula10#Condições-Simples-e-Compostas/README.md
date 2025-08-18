@@ -23,13 +23,13 @@ tem_carteira = True
 if idade >= 18 and tem_carteira:
     print("Pode dirigir.")
 # Operadores Relacionais
-Operador    Significado
-==          Igual 
-!=          Diferente
-\>           Maior 
-<           Menor 
-=>          Maior ou igual 
-<=          Menor ou igual
+    Operador    Significado
+    ==          Igual 
+    !=          Diferente
+    >           Maior 
+    <           Menor 
+    =>          Maior ou igual 
+    <=          Menor ou igual
 
 # Exercícios
 
