@@ -5,23 +5,18 @@ Condições Simples e Compostas em Python
 Em Python, usamos estruturas condicionais para tomar decisões com base em testes lógicos. Elas permitem que o programa execute diferentes blocos de código dependendo das condições especificadas.
 
 # Condição Simples (if)
-idade = 18
-if idade >= 18:
-  print("Você é maior de idade.")
+    idade = 18
+    if idade >= 18:
+      print("Você é maior de idade.")
 Nesse exemplo, o print só será executado se a condição idade >= 18 for verdadeira.
 
 # Condições Compostas (Operadores Lógicos)
-and → todas as condições precisam ser verdadeiras
+    and → todas as condições precisam ser verdadeiras
+    
+    or → pelo menos uma condição precisa ser verdadeira
+    
+    not → inverte o valor lógico
 
-or → pelo menos uma condição precisa ser verdadeira
-
-not → inverte o valor lógico
-
-idade = 20
-tem_carteira = True
-
-if idade >= 18 and tem_carteira:
-    print("Pode dirigir.")
 # Operadores Relacionais
     Operador    Significado
     ==          Igual 
@@ -31,6 +26,11 @@ if idade >= 18 and tem_carteira:
     =>          Maior ou igual 
     <=          Menor ou igual
 
+    idade = 20
+    tem_carteira = True
+
+    if idade >= 18 and tem_carteira:
+    print("Pode dirigir.")
 # Exercícios
 
 28 - Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual o número escolhido pelo computador. O programa deve dizer se venceu ou perdeu.
