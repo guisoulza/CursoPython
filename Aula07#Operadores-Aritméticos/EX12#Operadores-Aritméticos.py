@@ -1,5 +1,8 @@
 #Operadores Aritméticos.
 
+#12 - Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+
+
 p=float(input('Valor do produto: R$'))
 #c=float((p/100)*5)
 #d=float(p-c)

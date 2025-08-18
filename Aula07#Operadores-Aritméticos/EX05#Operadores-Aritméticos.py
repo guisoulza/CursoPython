@@ -1,5 +1,7 @@
 #Operadores Aritméticos.
 
+#05 - Faça um programa que leia um número inteiro e mostre na tela seu sucessor e antecessor.
+
 n1=int(input('Digite um número: '))
 #m=n1+1
 #s=n1-1

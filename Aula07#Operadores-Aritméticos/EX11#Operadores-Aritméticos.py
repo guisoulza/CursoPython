@@ -1,5 +1,8 @@
 #Operadores Aritméticos.
 
+#11 - Faça um programa que leia a altura e a largura de uma parede em metros, calcule sua área e a quantidade de tinta necessária para pintá-la sabendo que cada litros de tinta pinta uma área de 2m².
+
+
 a=float(input('Digite a altura: '))
 l=float(input('Digite a largura: '))
 m=a*l

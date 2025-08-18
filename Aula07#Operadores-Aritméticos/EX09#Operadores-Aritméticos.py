@@ -1,5 +1,7 @@
 #Operadores Aritméticos.
 
+#09 - Faça um programa que leia um número inteiro qualquer e faça sua tabuada.
+
 n=int(input('Digite um número: '))
 #t1=n*1
 #t2=n*2
