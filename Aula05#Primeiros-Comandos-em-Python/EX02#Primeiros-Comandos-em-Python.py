@@ -2,7 +2,7 @@
 
 #02 - Crie um script que leia o dia, o mês e o ano de uma pessoa e mostre uma mensagem com data formatada.
 
-
-nome=input('Qual o seu nome? ')
-print('Bem vindo', nome)
-print('Bem vindo {}'.format(nome))
+dia = int(input('Dia de nascimento: '))
+mes = int(input('Mes de nascimento: '))
+ano = int(input('Ano de nascimento: '))
+print('Você nasceu em {}/{}/{}'.format(dia,mes,ano))
