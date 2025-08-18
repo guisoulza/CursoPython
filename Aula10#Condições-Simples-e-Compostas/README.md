@@ -26,11 +26,14 @@ Nesse exemplo, o print só será executado se a condição idade >= 18 for verda
     =>          Maior ou igual 
     <=          Menor ou igual
 
+Exemplo do uso dos operadores combinados:
+
     idade = 20
     tem_carteira = True
 
     if idade >= 18 and tem_carteira:
     print("Pode dirigir.")
+
 # Exercícios
 
 28 - Escreva um programa que faça o computador "pensar" em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual o número escolhido pelo computador. O programa deve dizer se venceu ou perdeu.
