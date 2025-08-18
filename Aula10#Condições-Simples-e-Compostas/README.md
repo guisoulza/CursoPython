@@ -26,7 +26,7 @@ if idade >= 18 and tem_carteira:
 Operador    Significado
 ==          Igual 
 !=          Diferente
->           Maior 
+\>           Maior 
 <           Menor 
 =>          Maior ou igual 
 <=          Menor ou igual
