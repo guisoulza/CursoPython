@@ -17,3 +17,5 @@ ANSI -> Padrão de normalização internacional, tem o que é chamado de escape 
 # Exercício Bônus
 
 Adicione cores a 10 exercícios feitos.
+
+Adicionado cores aos exercícios: 00, 03, 08, 11, 27, 28, 29, 32, 35 e 37.
