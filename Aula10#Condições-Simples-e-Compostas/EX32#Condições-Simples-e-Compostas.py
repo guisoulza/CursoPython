@@ -10,12 +10,14 @@ if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
 else:
     print('\033[4;31mO ano {} não é bissexto\033[m'.format(a))
 
+#Correção
 
+"""
+from datetime import date
 
-
-
-
-'''
+a = int(input('Digite o ano: '))
+if a == 0:
+    a = date.today().year
 if a % 400 == 0:
     print('O ano é bissexto')
 else:
@@ -26,4 +28,4 @@ else:
             print('O ano é bissexto')
         else:
             print('O ano não é bissexto')
-'''
+"""
