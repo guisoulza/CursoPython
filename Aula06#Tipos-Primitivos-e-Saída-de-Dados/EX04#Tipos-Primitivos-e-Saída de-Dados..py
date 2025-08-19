@@ -5,7 +5,7 @@
 n=input('Digite algo: ')
 print('É numérico? ', n.isnumeric())                    #Nesta linha o .isnumeric() vai mostrar se o dado é um número.
 print('Tem letras? ', n.isalpha())                      #Nesta linha o .isalpha() vai mostrar se o dado possui letras.
-print('Tem letras ou numéros? ', n.isalnum())           #Nesta linha o .isalnum() vai mostrar se o dado tem números e letras.
+print('Tem letras ou numéros? ', n.isalnum())           #Nesta linha o .isalnum() vai mostrar se o dado tem números ou letras.
 print('Está em maiusculo? ', n.isupper())               #Nesta linha o .isupper() vai mostrar se o dado está em maiúsculo.
 print('Está em minusculo? ', n.islower())               #Nesta linha o .islower() vai mostrar se o dado está em minúsculo.
 print('É um titulo? ', n.istitle())                     #Nesta linha o .istitle() vai mostrar se o dado tem a sua primeira letra maiúscula para ser considerado como titúlo.
