@@ -1,3 +1,5 @@
+#Interrompendo Repetições while.
+
 """
 cont = 1
 while True:                                        #Utilizando esse loop a execução se tornará infinita
