@@ -2,11 +2,11 @@
 
 #68 - Faça um programa que jogue par ou impar com o computador. O jogo só será interrompido quando o jogador PERDER, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 
-import random
+from random import randint
 
 print('Vamos jogar par ou impar?')
 print('-' * 18)
-comp = random.randint(0, 100)
+comp = randint(0, 100)
 soma = cont = 0
 while True:
     n = int(input('Digite o número: '))
