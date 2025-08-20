@@ -10,6 +10,9 @@ print('-' * 20)
 while True:
     idade = int(input('Idade: '))
     genero = str(input('Genero [M/F]: ')).upper().strip()[0]
+    if genero not in ['M', 'F']:
+        print('Opção inválida.')
+        genero = str(input('Genero [M/F]: ')).upper().strip()[0]
     if idade >= 18:
         ci += 1
     if genero == 'M':
