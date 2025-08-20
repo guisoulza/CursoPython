@@ -11,13 +11,13 @@ soma = cont = 0
 while True:
     n = int(input('Digite o número: '))
     j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
+    if j not in 'PI':
+        print('Opção inválida. Tente novamente.')
+        j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
     if j == 'P':
         print('Impar')
         soma = comp + n
         print(f'A soma é {soma}')
-        if j not in 'PI':
-            print('Opção inválida. Tente novamente.')
-            j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
         if soma % 2 == 0:
             print('Você ganhou!')
             cont += 1
