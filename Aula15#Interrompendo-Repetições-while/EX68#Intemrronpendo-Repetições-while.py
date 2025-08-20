@@ -20,6 +20,7 @@ while True:
             cont += 1
         else:
             print('Você perdeu! Mais sorte na proxima')
+            break
     if j == 'I':
         print('Par')
         soma = comp + n
