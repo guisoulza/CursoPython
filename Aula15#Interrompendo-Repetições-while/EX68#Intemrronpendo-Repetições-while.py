@@ -32,5 +32,9 @@ while True:
         else:
             print('Você perdeu! Mais sorte na proxima.')
             break
+    if j not in 'PI':
+        print('Opção inválida. Tente novamente.')
+        n = int(input('Digite o número: '))
+        j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
 print(f'Foram {cont} vitórias consecutivas.')
 print('-' * 18)
