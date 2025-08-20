@@ -15,6 +15,9 @@ while True:
         print('Impar')
         soma = comp + n
         print(f'A soma é {soma}')
+        if j not in 'PI':
+            print('Opção inválida. Tente novamente.')
+            j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
         if soma % 2 == 0:
             print('Você ganhou!')
             cont += 1
@@ -32,8 +35,5 @@ while True:
         else:
             print('Você perdeu! Mais sorte na proxima.')
             break
-    if j not in 'PI':
-        print('Opção inválida. Tente novamente.')
-        j = str(input('Par ou Impar? [P/I] ')).upper().strip()[0]
 print(f'Foram {cont} vitórias consecutivas.')
 print('-' * 18)
