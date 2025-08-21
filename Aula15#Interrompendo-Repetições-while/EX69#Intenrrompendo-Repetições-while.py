@@ -27,3 +27,28 @@ while True:
         break
     print('-' * 20)
 print(f'Tem {ci} pessoas acima de 18, {cm} homens, e {cf} mulheres com menos de 20 anos.')
+
+#Correção
+
+"""
+tot18 = toth = totm20 = 0
+while True:
+    idade = int(input('Idade: '))
+    genero = ''
+    while genero not in ['M', 'F']:
+        genero = str(input('Genero [M/F]: ')).upper().strip()[0]
+    if idade >= 18:
+        tot18 += 1
+    if genero == 'M':
+        toth += 1
+    if sexo == 'F' and idade < 20:
+        totm20 += 1
+    resp = ''
+    while resp not in ['S', 'N']:
+        resp = str(input('Quer continuar? [S/N]')).upper().strip()[0]    
+    if resp == 'N':
+        break
+print(f'Total de pessoas com mais de 18 anos: {tot18}')
+print(f'Ao todo temos {toth} homens cadastrados')
+print(f'E temos {totm20} mulheres com menos de 20 anos')
+"""
