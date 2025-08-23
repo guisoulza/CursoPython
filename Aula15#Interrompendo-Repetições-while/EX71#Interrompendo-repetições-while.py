@@ -7,7 +7,7 @@ print('GELAS BANK')
 print('-' * 30)
 n = int(input('Digite o valor do saque: '))
 cedula = 50
-total_cedula=0
+total_cedula = 0
 nota50 = nota20 = nota10 = nota1 = 0
 while True:
     if n >= cedula:
