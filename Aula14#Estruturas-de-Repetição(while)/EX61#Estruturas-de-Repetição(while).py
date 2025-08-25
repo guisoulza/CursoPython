@@ -1,5 +1,7 @@
 #Estruturas de repetição(while).
 
+#61 - Refaça o exercício 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progreção utilizando a estrutura while.
+
 n = int(input('Digite o termo: '))
 r = int(input('Digite a razão: '))
 termo = n

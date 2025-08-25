@@ -1,5 +1,6 @@
 #Estruturas de repetição(while).
 
+#60 - Faça um programa que leia um número qualquer e mostre seu fatorial.
 
 n = int(input('Digite um número: '))
 original = n

@@ -1,5 +1,12 @@
 #Condições Aninhadas.
 
+#44 - Elabore um programa que calcule o valor a ser pago por um produto considerando seu preço normal e condição de pagamento:
+
+#A vista: 10% de desconto;
+#Cartão a vista: 5% de desconto;
+#parcelado em 2x: preço normal;
+#parcelado em 3x ou mais: 20% de juros.
+
 preco = float(input('Qual o valor do produto?\n'))
 print('1 - À vista no dinheiro\n2 - À vista no cartão\n3 - 2x sem juros\n4 - 3x ou mais com 20% de juros')
 formapagar = int(input('Qual a forma de pagamento?\n'))

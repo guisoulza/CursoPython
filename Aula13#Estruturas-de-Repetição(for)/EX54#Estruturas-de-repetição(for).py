@@ -1,5 +1,7 @@
 #Estruturas de repetição(for).
 
+#54 - Crie um programa que leia o ano de nascimento de sete pessoas. No final mostre quantas não atingiram a maioridade e quantos já são maiores de idade.
+
 from datetime import date
 atual = date.today().year
 totmaior = 0

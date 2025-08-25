@@ -1,5 +1,11 @@
 #Condições Aninhadas.
 
+#42 - Refaça o Exercício 035 dos triângulos, acrescentando o tipo de triângulo será formado:
+
+#Equilátero: Lados iguais;
+#Isósceles: 2 lados iguais;
+#Escaleno: Lados diferentes.
+
 a = float(input('Digite a medida: '))
 b = float(input('Digite a medida: '))
 c = float(input('Digite a medida: '))

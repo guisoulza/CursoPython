@@ -1,5 +1,13 @@
 #Estruturas de repetição(while).
 
+#59 - Crie um programa que leia dois valores e mostre um menu ba tela:
+
+#[1] Somar;
+#[2] Multiplicar;
+#[3] Maior;
+#[4] Novos números;
+#[5] Sair do programa.
+
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro número: '))
 texto = ''                                                              #Variavel de controle do loop

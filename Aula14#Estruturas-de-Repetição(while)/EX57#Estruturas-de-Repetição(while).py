@@ -1,5 +1,7 @@
 #Estruturas de repetição(while).
 
+#57 - Faça um programa que leia o sexo de uma pessoa, mas só aceite os valores "M" ou "F". Caso esteja errado peça a digitação novamente até ter um valor correto.
+
 genero = ""                                                                #Variável para controle do loop
 while genero not in ('M', 'F'):                                            #Nesta linha o loop vai continuar enquanto o usuário não digitar o que foi solicitado
     genero = input('Digite o seu gênero ( M / F ): ').upper().strip()[0]

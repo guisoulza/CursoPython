@@ -1,5 +1,11 @@
 #Condições Aninhadas.
 
+#38 - Escreva um programa que leia dois números inteiros e compare-os mostrando na tela um mensagem:
+
+#O primeiro valor é maior;
+#O segundo valor é menor;
+#Os 2 valores são iguais.
+
 num1 = int(input('Escolha o valor: '))
 num2 = int(input('Escolha o valor: '))
 if num1 > num2:

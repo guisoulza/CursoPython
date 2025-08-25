@@ -6,14 +6,14 @@ print('-' * 30)
 print(f'{'GELAS BANK':^30}')
 print('-' * 30)
 n = int(input('Digite o valor do saque: '))
-cedula = 50
+cedula = 50                                                                 #Inicializa a maior cédula e o contador de cédulas.
 total_cedula = 0
-nota50 = nota20 = nota10 = nota1 = 0
+nota50 = nota20 = nota10 = nota1 = 0                                        #Variáveis para armazenar a quantidade de cada nota.
 while True:
-    if n >= cedula:
-        n -= cedula
-        total_cedula += 1
-    else:
+    if n >= cedula:                                                         #Enquanto o valor restante for maior ou igual à cédula.
+        n -= cedula                                                         #Subtrai o valor da cédula do saque.
+        total_cedula += 1                                                   #Incrementa o contador de cédulas usadas.
+    else:                                                                   #Quando não for mais possível usar a cédula atual, salva o total e muda para a próxima.
         if cedula == 50:
             nota50 = total_cedula
             cedula = 20
@@ -28,8 +28,8 @@ while True:
         elif cedula == 1:
             nota1 = total_cedula
             print(f'Serão necessárias {total_cedula} notas de 1.')
-        total_cedula = 0
-        if n == 0:
+        total_cedula = 0                                                    #Reinicia o contador para a próxima cédula.
+        if n == 0:                                                          #Quando todas as cédulas forem distribuídas, encerra o loop.
             break
 
 #Correção

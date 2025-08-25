@@ -5,22 +5,22 @@
 #* Quantos produtos custam mais de R$1000;
 #* Qual produto mais barato.
 
-cmil = soma = menor = c = 0
-barato = ''
+cmil = soma = menor = c = 0                                     #"cmil" é o contador de produtos com preço >= 1000, "soma" soma total dos valores dos produtos, "menor" armazena o menor valor registrado e "c" é o contador de produtos.
+barato = ''                                                     #Nome do produto mais barato.
 while True:
     produto = str(input('Digite o nome do produto: '))
     valor = float(input('Digite o valor do produto: R$'))
     c += 1
     soma += valor
-    if valor >= 1000:
+    if valor >= 1000:                                           #Conta produtos com preço >= 1000
         cmil += 1
-    if c == 1:
-        menor = valor
-        barato = produto
+    if c == 1:                                                  #Verifica o primeiro produto ou atualiza o mais barato.
+        menor = valor                                           #Inicializa 'menor' com o valor do primeiro produto.
+        barato = produto                                        #Inicializa 'barato' com o nome do primeiro produto.
     else:
-        if valor < menor:
-            menor = valor
-            barato = produto
+        if valor < menor:                                       #Se o valor atual for menor que o menor registrado.
+            menor = valor                                       #Atualiza o menor valor.
+            barato = produto                                    #Atualiza o nome do produto mais barato.
     opcao = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
     if opcao not in 'SN':
         print('Opção inválida')

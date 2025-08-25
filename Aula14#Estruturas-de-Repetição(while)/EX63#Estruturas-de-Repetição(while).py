@@ -1,5 +1,7 @@
 #Estruturas de repetição(while).
 
+#63 - Escreva um programa que leia um número "n" inteiro qualquer e mostre na tela os "n" primeiros elementos de uma sequência de Fibonacci.
+
 n = int(input('Digite quantos numeros vão para a sequencia: '))
 antigo = 0
 novo = 1

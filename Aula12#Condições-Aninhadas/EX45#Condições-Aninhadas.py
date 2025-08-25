@@ -1,5 +1,7 @@
 #Condições Aninhadas.
 
+#45 - Faça um JOKENPO.
+
 from random import choice
 
 print('JOKENPO')

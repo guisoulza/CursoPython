@@ -1,5 +1,7 @@
 #Condições Simples e Compostas.
 
+#29 - Escreva um programa que leia a velocidade de um carro. Se passar de 80km/h mostre que foi multado. A multa vai custar R$7,00 por cada km/h acima do limite.
+
 v = int(input('Qual a velocidade do carro?\n'))
 m = float((v-80) * 7)
 if v > 80:
