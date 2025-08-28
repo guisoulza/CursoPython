@@ -20,7 +20,7 @@ Forma incorreta:
 num = soma = 0
 while num != 999:
     num = int(input('Digite um valor (999 para parar): '))
-    soma = += num
+    soma += num
 soma -= 999
 print(f'A soma dos valores foi {soma}')
 
