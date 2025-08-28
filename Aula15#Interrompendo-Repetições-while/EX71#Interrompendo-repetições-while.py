@@ -45,7 +45,7 @@ totalced = 0
 while True:
     if valor >= ced:
         total -= ced
-        tot ced += 1
+        totalced += 1
     else:
     print(f'O total de {totced} cedulas de {ced}.')
         if ced == 50:
