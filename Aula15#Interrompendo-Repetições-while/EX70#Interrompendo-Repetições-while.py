@@ -51,5 +51,6 @@ while True:
         break
 print('{:-^40}'.format('FIM DO PROGRAMA)
 print(f'O total da compra foi R${total:.2f}')
+print(f'Existem {totmil} produtos maiores que R$1000')
 print(f'O produto mais barato foi {barato} e custa R${menor:.2f})
 """
