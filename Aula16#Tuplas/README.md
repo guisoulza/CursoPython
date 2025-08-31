@@ -48,7 +48,7 @@ Tuplas com estrutura de repetição:
 
 Podemos utilizar estruturas de repetição com as tuplas.
 
-Use tuplas são imutáveis, ou seja, quando quiser armazenar valores fixos que não devem ser alterados (ex.: coordenadas, dias da semana).
+Tuplas são imutáveis, ou seja, quando quiser armazenar valores fixos que não podem ser alterados (ex.: coordenadas, dias da semana).
 
 # Exercícios
 
