@@ -9,9 +9,9 @@ palavras = (
 )
 
 for p in palavras:
-    vogais = ()  # tupla vazia para armazenar vogais
+    vogais = ()                                     #Tupla vazia para armazenar vogais
     for letra in p:
         if letra in "aeiou":
-            vogais += (letra,)  # adiciona vogal à tupla
+            vogais += (letra,)                      #Adiciona vogal à tupla
     print(f'Na palavra {p} temos ', end='')
     print(", ".join(vogais))
