@@ -16,7 +16,7 @@ classificacao = (
 
 print(f'{'Brasileirão série B':^30}')
 print('-' * 230)
-print(f'Os 5 primeiros colocados são:\n{', '.join(classificacao[:5])}')                                     #join() é uma forma de mostrar o resultado de uma variável composta sem a poluição das aspas e dos parentêses, conchete ou chaves.
+print(f'Os 5 primeiros colocados são:\n{', '.join(classificacao[:5])}')                                     #join() é uma forma de mostrar o resultado de uma variável composta sem a poluição das aspas, parentêses, conchete, chaves e virgulas.
 print('-' * 230)
 print(f'Os 4 últimos colocados são:\n{', '.join(classificacao[-4:])}')
 print('-' * 230)
