@@ -14,7 +14,10 @@ classificacao = (
     "Volta Redonda", "América-MG", "Botafogo-SP", "Paysandu", "Amazonas FC"
 )
 
-print(f'{'Brasileirão série B':^30}')
+print('-' * 230)
+print(f'{'Brasileirão série B'}')
+print('-' * 230)
+print(f'Lista de times:\n{', '.join(classificacao)}')
 print('-' * 230)
 print(f'Os 5 primeiros colocados são:\n{', '.join(classificacao[:5])}')                                     #join() é uma forma de mostrar o resultado de uma variável composta sem a poluição das aspas, parentêses, conchete, chaves e virgulas.
 print('-' * 230)
@@ -22,5 +25,28 @@ print(f'Os 4 últimos colocados são:\n{', '.join(classificacao[-4:])}')
 print('-' * 230)
 print(f"A ordem alfabética é: \n{', '.join(sorted(classificacao))}")
 print('-' * 230)
-print(f'Chapecoense esta na posição: {classificacao.index('Chapecoense') + 1}º')
+print(f'Chapecoense esta na {classificacao.index('Chapecoense') + 1}º posição ')
 print('-' * 230)
+
+#Correção
+
+"""
+classificacao = (
+    "Goiás", "Coritiba", "Novorizontino", "Chapecoense", "Remo",
+    "Avaí", "Cuiabá", "Criciúma", "Vila Nova", "Atlético-GO",
+    "Operário-PR", "Athletico Paranaense", "Ferroviária", "CRB", "Athletic-MG",
+    "Volta Redonda", "América-MG", "Botafogo-SP", "Paysandu", "Amazonas FC"
+)
+
+print(f'{'Brasileirão série B':^30}')
+print('-=' * 15)
+print(f'Lista de times: {classificacao}')
+print('-=' * 15)
+print(f'Os 5 primeiros colocados são:\n{classificacao[:5]}')                                     #join() é uma forma de mostrar o resultado de uma variável composta sem a poluição das aspas, parentêses, conchete, chaves e virgulas.
+print('-=' * 15)
+print(f'Os 4 últimos colocados são:\n{classificacao[-4:]}')
+print('-=' * 15)
+print(f"A ordem alfabética é: \n{sorted(classificacao)}")
+print('-=' * 15)
+print(f'Chapecoense esta na {classificacao.index('Chapecoense') + 1}º posição.')
+"""
