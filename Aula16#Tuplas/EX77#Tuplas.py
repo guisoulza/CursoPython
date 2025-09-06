@@ -9,9 +9,25 @@ palavras = (
 )
 
 for p in palavras:
-    vogais = ()                                     #Tupla vazia para armazenar vogais
+    vogais = ()
     for letra in p:
         if letra in "aeiou":
-            vogais += (letra,)                      #Adiciona vogal à tupla
+            vogais += (letra,)
     print(f'Na palavra {p} temos ', end='')
     print(", ".join(vogais))
+
+#Correção
+
+"""
+palavras = (
+    "computador", "python", "monitor", "teclado", "mouse",
+    "cadeira", "janela", "livro", "caneta", "garrafa",
+    "mesa", "porta", "telefone", "carro", "caderno"
+)
+
+for p in palavras:
+    print(f'\nNa palavra {p.upper()} temos ', end='')
+    for letra in p:
+        if letra.lower() in "aeiou":
+            print(letra, end=' ')
+"""
