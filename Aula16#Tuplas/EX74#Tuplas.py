@@ -18,7 +18,7 @@ from random import randint
 
 tupla = (randint(1, 5), randint(1, 5), randint(1, 5), randint(1, 5), randint(1, 5))
 print(f'Os números sorteados foram:', end=' ')
-for n in numeros:                                              #Não esquecer dessa forma de realizar a ordem de números sem aparecer os parentêses
+for n in tupla:                                              #Não esquecer dessa forma de realizar a ordem de números sem aparecer os parentêses
     print(f'{n}', end=' ')
 print(f'O maior valor é: {max(tupla)}')
 print(f'O menor valor é: {min(tupla)}')
