@@ -23,3 +23,27 @@ for item in lista:
 print(f'Lista: {lista}')
 print(f'Lista de pares: {par}')
 print(f'Lista de impares: {impar}')
+
+# Correção
+
+"""
+num = list()
+pares = list()
+impares = list()
+while True:
+    num.append(int(input('Digite um valor: ')))
+    resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp not in 'SN':
+        print('Opção invalida! Tente novamente.')
+    elif resp == 'N':
+        break
+for i, v in enumerate(num):
+    if v % 2 == 0:
+        pares.append(v)
+    elif v % 2 == 1:
+        impares.append(v)
+print('-=' * 30)
+print(f'Lista completa é {num}')
+print(f'Lista de pares é {pares}')
+print(f'Lista de impares é {impares}')
+"""
