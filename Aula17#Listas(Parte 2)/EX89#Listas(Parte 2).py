@@ -22,3 +22,11 @@ print('-=' * 30)
 print(f"{'Nº':<4} {'Nome':<12} {'Média':>5}")
 for i, aluno in enumerate(boletim):
     print(f"{i:<4} {aluno[0]:<12} {aluno[3]:>5.1f}")
+while True:
+    selecao = int(input('Mostrar nota de qual aluno? (999 para parar): '))
+    if selecao == 999:
+        break
+    else:
+        print(f'Notas de {boletim[selecao][0]} são {boletim[selecao][1]} {boletim[selecao][2]}')
+print('-=' * 30)
+
