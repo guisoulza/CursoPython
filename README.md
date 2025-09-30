@@ -15,6 +15,7 @@ Porque quero usar minha capacidade e persistência pra aprender cada vez mais e 
 🎮 Qual a meta predestinada?
 Jogar jogos com a mente usando uma interface neural feita no python.
 
+# Python Course
 
 🐍 Python Course – Personal Studies, this repository contains my Python learning journey based on the course Mundo Python from Curso em Vídeo with professor Gustavo Guanabara, organized by lessons with practical exercises, notes, and code examples.
 
