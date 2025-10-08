@@ -2,7 +2,7 @@
 Nesta aula, será mostrado como utilizar as instruções print() e input() para realizar interação com o usuário. 
 Além disso, vamos ver o conceito fundamental de variável e como elas se comportam dentro de um programa em Python.
 
-# Exercícios
+## Exercícios
 00 - Dê um oi pra eles.
 
 01 - Crie um script que leia o nome de uma pessoa e mostra uma mensagem de boas vindas de acordo com o valor digitado.
@@ -15,7 +15,7 @@ Além disso, vamos ver o conceito fundamental de variável e como elas se compor
 In this lesson, we will learn how to use the print() and input() statements to interact with the user. 
 Additionally, we will cover the fundamental concept of variables and how they behave within a Python program.
 
-# Exercises
+## Exercises
 00 - Say hi to them.
 
 01 - Create a script that reads a person's name and displays a welcome message according to the input value.
