@@ -1,6 +1,7 @@
-#Operadores Aritméticos.
+# Operadores Aritiméticos (Arithmetic Operators).
 
-#08 - Escreva um programa que leia um valor em metros e o exiba convertido em centímetros.
+# 08 - Escreva um programa que leia um valor em metros e o exiba convertido em centímetros.
+# 08 - Write a program that reads a value in meters and shows convert it to centimeters.
 
 t=float(input('Digite o tamanho em metros: '))
 km=t*0.001
