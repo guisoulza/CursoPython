@@ -1,4 +1,4 @@
-#Módulos.
+# Módulos(Modules).
 
 from math import sqrt,ceil,floor                    #sqrt calcula a raiz quadrada de num
 num=int(input('Digite um número: '))

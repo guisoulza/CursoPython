@@ -1,4 +1,4 @@
-#Módulos.
+# Módulos(Modules).
 
 import random
 n=random.random()
