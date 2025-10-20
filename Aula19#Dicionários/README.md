@@ -3,6 +3,8 @@
 Nessa aula, vamos aprender o que são DICIONÁRIOS e como utilizar dicionários em Python. Os dicionários são variáveis 
 compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves literais.
 
+## Dicionários em python
+
 Dicionários são representados por {}.
 
 * Em listas e tuplas, os dados são contabilizados a partir do zero (0), já no dicionário podemos dar nome aos dados.
