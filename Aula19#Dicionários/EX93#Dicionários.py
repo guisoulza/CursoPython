@@ -24,3 +24,4 @@ print('-=' * 30)
 print(f'O jogador {futebol['Nome']} teve {futebol["partidas"]} partidas')
 for partida in range(futebol['partidas']):
     print(f'     =>Na partida {partida + 1} fez {futebol["gols"][partida]} gols.')
+print(f'No total foram {futebol["total"]} gols.')
