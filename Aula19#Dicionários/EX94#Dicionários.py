@@ -15,10 +15,10 @@ c= medidade = total = 0
 while True:
     dados = {}
     dados['Nome'] = str(input('Nome: '))
-    dados['Sexo'] = str(input('Sexo: '))
+    dados['Sexo'] = str(input('Sexo: ')).strip().upper()[0]
     if dados['Sexo'] not in 'FfMm':
         print('Genero invalido tente novamente.')
-        dados['Sexo'] = str(input('Sexo: '))
+        dados['Sexo'] = str(input('Sexo: ')).strip().upper()[0]
     dados['Idade'] = int(input('Idade: '))
     dado.append(dados.copy())
     c += 1
