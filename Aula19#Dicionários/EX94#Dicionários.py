@@ -34,11 +34,11 @@ print(f'A média de idade é {medidade:.2f} anos.')
 for p in dado:
     if p['Sexo'] == 'F':
         mulheres.append(p['Nome'])
-print(f'Lista de mulheres cadastradas: {mulheres}')
+print(f'Lista de mulheres cadastradas: {", ".join(mulheres)}')
 for p in dado:
     if p['Idade'] >= medidade:
         idademed.append(p['Nome'])
-print(f'Pessoas acima da média: {idademed}')
+print(f'Pessoas acima da média: {", ".join(idademed)}')
 print('-=' * 30)
 
 
