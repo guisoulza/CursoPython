@@ -13,10 +13,29 @@ dados['idade'] = date.today().year - dados['Nascimento']
 dados['CTPS'] = int(input('CTPS (0 não tem): '))
 if dados['CTPS'] != 0:
     dados['Contratação'] = int(input('Ano de contratação: '))
-    dados['Salário'] = int(input('Salário: R$'))
+    dados['Salário'] = float(input('Salário: R$'))
     dados['Aposentadoria'] = (dados['Contratação'] - dados['Nascimento']) + 35
-
 print('-=' * 30)
 for k, v in dados.items():
     if k != 'Nascimento':
         print(f' - {k} tem o valor {v}')
+
+# Correção
+
+"""
+from datetime import datetime
+
+dados = dict()
+dados['nome'] = str(input('Nome: '))
+nasc = int(input('Ano de nascimento: '))
+dados['idade'] = datetime.now().year - nasc
+dados['CTPS'] = int(input('Carteira de Trabalho (0 não tem): '))
+if dados['CTPS'] != 0:
+    dados['Contratação'] = int(input('Ano de contratação: '))
+    dados['Salário'] = float(input('Salário: R$'))
+    dados['Aposentadoria'] = dados['idade'] + ((dados['Contratação'] + 35) - datetime.now().year)
+print('-=' * 30)
+for k, v in dados.items():
+    if k != 'Nascimento':
+        print(f' - {k} tem o valor {v}')
+"""
